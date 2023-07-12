@@ -15,12 +15,6 @@ const getDetailedWeather = (
 type GetDetailedWeatherParameters = Parameters<typeof getDetailedWeather>;
 
 type tests = [
-    Expect<Equal<GetLocationWeatherReturn, string>>,
-    Expect<Equal<GetDetailedWeatherParameters, [
-        locationId: string,
-        details?: {
-            tempUnit?: 'C' | 'F';
-            includeForecast?: boolean;
-        }
-    ]>>
+    Expect<Equal<GetLocationWeatherReturn, unknown>>,
+    Expect<Equal<GetDetailedWeatherParameters, unknown>>
 ];

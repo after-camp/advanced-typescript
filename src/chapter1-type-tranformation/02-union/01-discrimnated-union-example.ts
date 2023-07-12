@@ -8,7 +8,7 @@ interface Rectangle {
     width: number;
     height: number;
 }
-type Shape = Square | Rectangle | Circle;
+type Shape = Square | Rectangle;
 
 function area(shape: Shape) {
     if (shape.kind === "square") {

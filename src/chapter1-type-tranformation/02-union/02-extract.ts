@@ -14,6 +14,6 @@ export type Event =
     event: KeyboardEvent;
 };
 
-type ClickEvent = Extract<Event, { type: "click" }>;
+type ClickEvent = Extract<Event, unknown>;
 
 type tests = [Expect<Equal<ClickEvent, { type: "click"; event: MouseEvent }>>];

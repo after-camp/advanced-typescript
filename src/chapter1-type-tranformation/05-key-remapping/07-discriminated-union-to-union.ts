@@ -14,13 +14,7 @@ type Fruit =
     color: "orange";
 };
 
-type TransformedFruit = {
-    [K in Fruit as K['name']]: `${K['name']}:${K['color']}`;
-}[Fruit['name']];
-
-type Test = {
-    [K in Fruit as K['name']]: `${K['name']}:${K['color']}`;
-}
+type TransformedFruit = unknown
 
 type tests = [
     Expect<
