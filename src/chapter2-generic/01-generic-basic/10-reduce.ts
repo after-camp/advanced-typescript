@@ -3,10 +3,10 @@ import {Equal, Expect} from "../../helper.ts";
 
 const array = [
     {
-        name: "John",
+        name: "Park",
     },
     {
-        name: "Steve",
+        name: "Kim",
     },
 ];
 
@@ -17,11 +17,11 @@ const obj = array.reduce((accum, item) => {
 
 it("Should resolve to an object where name is the key", () => {
     expect(obj).toEqual({
-        John: {
-            name: "John",
+        Park: {
+            name: "Park",
         },
-        Steve: {
-            name: "Steve",
+        Kim: {
+            name: "Kim",
         },
     });
 

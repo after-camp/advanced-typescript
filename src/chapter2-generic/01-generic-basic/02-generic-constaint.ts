@@ -1,7 +1,6 @@
 import {Equal, Expect} from "../../helper.ts";
 
 export const returnWhatIPassIn = <T>(t: T) => t;
-
 const a = returnWhatIPassIn("a");
 
 type test1 = Expect<Equal<typeof a, "a">>;

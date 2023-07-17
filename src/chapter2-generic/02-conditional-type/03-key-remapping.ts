@@ -1,4 +1,4 @@
-import { Equal, Expect } from "../helpers/type-utils";
+import {Equal, Expect} from "../../helper.ts";
 
 interface Example {
     name: string;

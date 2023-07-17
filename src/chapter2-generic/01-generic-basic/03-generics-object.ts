@@ -1,6 +1,6 @@
 import { expect, it } from "vitest";
 import {Equal, Expect} from "../../helper.ts";
-const returnBothOfWhatIPassIn = (params: { a: unknown; b: unknown }) => {
+const returnBothOfWhatIPassIn = <T1, T2>(params: { a: unknown; b: unknown }) => {
     return {
         first: params.a,
         second: params.b,

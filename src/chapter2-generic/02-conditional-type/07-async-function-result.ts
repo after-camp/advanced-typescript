@@ -10,7 +10,7 @@ const getServerSideProps = async () => {
     };
 };
 
-type InferPropsFromServerSideFunction = unknown;
+type InferPropsFromServerSideFunction = unknown
 
 type tests = [
     Expect<
