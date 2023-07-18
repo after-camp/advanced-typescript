@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.195",
+    "@types/react": "^18.2.15",
     "axios": "^1.4.0",
     "lodash": "^4.17.21",
+    "react": "^18.2.0",
     "vitest": "^0.33.0"
   }
 }

@@ -6,7 +6,7 @@ export const Color = {
     Blue: "blue",
 }
 
-type RedAndBlue = unknown
+type RedAndBlue = typeof Color["Red" | "Blue"]
 
 type tests = [
     Expect<Equal<RedAndBlue, "red" | "blue">>

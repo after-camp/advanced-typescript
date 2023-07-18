@@ -12,8 +12,17 @@ enum ColorEnum {
 
 type ColorType = keyof typeof Color
 
-function color(c: ColorType){
+function color(c: ColorType) {
 
 }
 
-color(Color.Red)
+function uppercase(str: string) {
+
+}
+function enumColor(c: ColorEnum){
+    uppercase(c)
+}
+
+color("Red")
+enumColor(ColorEnum.Green)
+
