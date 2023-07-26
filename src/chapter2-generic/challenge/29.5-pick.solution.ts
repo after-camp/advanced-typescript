@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { Equal, Expect } from "../helpers/type-utils";
+import {Equal, Expect} from "../../helper";
 
 const pick = <TObj, TPicked extends keyof TObj>(
   obj: TObj,

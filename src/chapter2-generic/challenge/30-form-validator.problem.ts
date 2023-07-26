@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { Equal, Expect } from "../helpers/type-utils";
+import {Equal, Expect} from "../../helper";
 
 const makeFormValidatorFactory = (validators: unknown) => (config: unknown) => {
   return (values: unknown) => {

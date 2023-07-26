@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { Equal, Expect } from "../helpers/type-utils";
+import {Equal, Expect} from "../../helper";
 
 const fetchData = async <TResult>(url: string): Promise<TResult> => {
   const data = await fetch(url).then((response) => response.json());

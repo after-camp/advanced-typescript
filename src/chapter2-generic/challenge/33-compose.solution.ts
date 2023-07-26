@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { Equal, Expect } from "../helpers/type-utils";
+import {Equal, Expect} from "../../helper";
 
 export function compose<T1, T2>(func: (t1: T1) => T2): (t1: T1) => T2;
 export function compose<T1, T2, T3>(
