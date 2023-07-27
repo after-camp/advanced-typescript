@@ -1,10 +1,5 @@
 import { expect, it } from "vitest";
 
-/**
- * Here, we've actually got _multiple_ problem files!
- * Make sure to to check problem.2.ts too.
- */
-
 declare global {
   interface DispatchableEvent {
     LOG_IN: {
@@ -12,13 +7,6 @@ declare global {
       password: string;
     };
   }
-
-  /**
-   * This type converts the DispatchableEvent
-   * interface into a union:
-   *
-   * { type: 'LOG_IN'; username: string; password: string; }
-   */
   type UnionOfDispatchableEvents = {
     [K in keyof DispatchableEvent]: {
       type: K;

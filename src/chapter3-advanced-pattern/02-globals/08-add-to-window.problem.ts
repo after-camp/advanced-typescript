@@ -1,15 +1,6 @@
 import { expect, it } from "vitest";
 import {Equal, Expect} from "../../helper";
 
-/**
- * Clues:
- *
- * 1. You'll need declare global again
- *
- * 2. Inside declare global, you'll need to modify the Window
- * interface to add a makeGreeting function
- */
-
 window.makeGreeting = () => "Hello!";
 
 it("Should let you call makeGreeting from the window object", () => {

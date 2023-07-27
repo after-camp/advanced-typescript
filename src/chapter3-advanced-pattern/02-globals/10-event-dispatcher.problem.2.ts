@@ -1,4 +1,5 @@
 import { expect, it } from "vitest";
+import {DispatchableEvent} from "./10-event-dispatcher.problem.1.ts";
 
 /**
  * How do we add a LOG_OUT and UPDATE_USERNAME events to the
