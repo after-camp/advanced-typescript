@@ -1,6 +1,6 @@
-import { isBodyElement, isDivElement } from "fake-external-lib";
 import { it } from "vitest";
 import {Equal, Expect} from "../../helper";
+import {isBodyElement, isDivElement} from "../fake-external-lib";
 
 interface DOMNodeExtractorConfig<T, Result> {
   /**

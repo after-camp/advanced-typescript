@@ -11,7 +11,7 @@ interface PasswordValues {
 /**
  * 💡 You'll need to change this function...
  */
-function assertIsValidPassword(values: PasswordValues) {
+const assertIsValidPassword = (values: PasswordValues) => {
   if (values.password !== values.confirmPassword) {
     throw new Error("Password is invalid");
   }

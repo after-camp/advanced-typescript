@@ -35,10 +35,6 @@ it("Should throw an error when it encounters a normal user", () => {
 
 it("Should assert that the type is an admin user after it has been validated", () => {
   const example = (user: NormalUser | AdminUser) => {
-    /**
-     * The fix is to make assertUserIsAdmin a function,
-     * not an arrow function. Lord above.
-     */
     assertUserIsAdmin(user);
 
     type tests = [Expect<Equal<typeof user, AdminUser>>];
