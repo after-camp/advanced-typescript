@@ -21,9 +21,10 @@ class TypeSafeStringMap<TMap extends Record<string, string> = {}> {
 }
 
 const map = new TypeSafeStringMap()
-  .set("matt", "pocock")
-  .set("jools", "holland")
-  .set("brandi", "carlile");
+    .set("foo", "bar")
+    .set("hello", "word")
+    .set("junsuk", "park");
+
 
 it("Should not allow getting values which do not exist", () => {
   map.get(
@@ -33,7 +34,7 @@ it("Should not allow getting values which do not exist", () => {
 });
 
 it("Should return values from keys which do exist", () => {
-  expect(map.get("matt")).toBe("pocock");
-  expect(map.get("jools")).toBe("holland");
-  expect(map.get("brandi")).toBe("carlile");
+  expect(map.get("foo")).toBe("bar");
+  expect(map.get("hello")).toBe("word");
+  expect(map.get("junsuk")).toBe("park");
 });

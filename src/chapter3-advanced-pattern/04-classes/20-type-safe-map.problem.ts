@@ -1,13 +1,5 @@
 import { expect, it } from "vitest";
 
-/**
- * In this problem, we need to type the return type of the set()
- * method to make it add keys to the TMap generic.
- *
- * In the return type of set(), we'll need to modify the TMap
- * generic to add the new key/value pair.
- */
-
 class TypeSafeStringMap<TMap extends Record<string, string> = {}> {
   private map: TMap;
   constructor() {
@@ -26,9 +18,9 @@ class TypeSafeStringMap<TMap extends Record<string, string> = {}> {
 }
 
 const map = new TypeSafeStringMap()
-  .set("matt", "pocock")
-  .set("jools", "holland")
-  .set("brandi", "carlile");
+  .set("foo", "bar")
+  .set("hello", "word")
+  .set("junsuk", "park");
 
 it("Should not allow getting values which do not exist", () => {
   map.get(
@@ -38,7 +30,7 @@ it("Should not allow getting values which do not exist", () => {
 });
 
 it("Should return values from keys which do exist", () => {
-  expect(map.get("matt")).toBe("pocock");
-  expect(map.get("jools")).toBe("holland");
-  expect(map.get("brandi")).toBe("carlile");
+  expect(map.get("foo")).toBe("bar");
+  expect(map.get("hello")).toBe("word");
+  expect(map.get("junsuk")).toBe("park");
 });
