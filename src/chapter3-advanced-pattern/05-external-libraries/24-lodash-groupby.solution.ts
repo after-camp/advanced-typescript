@@ -1,6 +1,6 @@
 import _ from "lodash";
 import { expect, it } from "vitest";
-import { doNotExecute, Equal, Expect } from "../helpers/type-utils";
+import {doNotExecute, Equal, Expect} from "../../helper.ts";
 
 const groupByAge = <T extends { age: number }>(array: T[]) => {
   const grouped = _.groupBy(array, "age");
