@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 function returnWhatIPassIn(t: 1): 1;
 function returnWhatIPassIn(t: "jun"): "jun";

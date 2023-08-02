@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 type CreateDataShape<T1, T2> = {
     data: T1;

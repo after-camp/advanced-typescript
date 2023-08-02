@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 const fetchData = async (url: string) => {
     const data = await fetch(url).then((response) => response.json());

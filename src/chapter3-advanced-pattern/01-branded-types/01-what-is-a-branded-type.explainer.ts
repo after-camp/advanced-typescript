@@ -1,4 +1,4 @@
-import {Brand} from "../../helper.ts";
+import {Brand} from "../../helper";
 
 type Password = Brand<string, "Password">;
 type Email = Brand<string, "Email">;

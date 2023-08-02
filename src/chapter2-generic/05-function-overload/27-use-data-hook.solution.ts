@@ -1,5 +1,5 @@
 import { it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 function useData<T>(params: { fetchData: () => Promise<T> }): {
   getData: () => T | undefined;

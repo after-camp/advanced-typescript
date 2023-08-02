@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 type GetParametersAndReturnType<T extends (...args: any) => any> = {
     params: Parameters<T>;

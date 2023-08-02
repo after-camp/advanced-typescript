@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 const typedObjectKeys = <TKey extends string>(obj: Record<TKey, any>) => {
     return Object.keys(obj) as Array<TKey>;

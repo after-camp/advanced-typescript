@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 function youSayGoodbyeISayHello(greeting: "goodbye"): "hello";
 function youSayGoodbyeISayHello(greeting: "hello"): "goodbye";

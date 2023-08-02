@@ -1,5 +1,5 @@
 import { it } from "vitest";
-import {Brand} from "../../helper.ts";
+import {Brand} from "../../helper";
 
 type UserId = Brand<string, "UserId">;
 type PostId = Brand<string, "PostId">;

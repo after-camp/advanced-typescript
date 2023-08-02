@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 export const returnWhatIPassIn = <T>(t: T) => t;
 const a = returnWhatIPassIn("a");

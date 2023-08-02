@@ -1,5 +1,5 @@
 import { it } from "vitest";
-import {Brand} from "../../helper.ts";
+import {Brand} from "../../helper";
 
 type Valid<T> = unknown;
 

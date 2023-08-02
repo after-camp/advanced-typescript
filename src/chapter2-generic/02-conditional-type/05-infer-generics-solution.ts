@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 interface MyComplexInterface<Event, Context, Name, Point> {
     getEvent: () => Event;

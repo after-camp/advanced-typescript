@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 export class Component<TProps> {
     private props: TProps;

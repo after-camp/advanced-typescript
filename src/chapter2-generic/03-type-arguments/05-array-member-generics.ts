@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 const makeStatus = <TStatuses extends string[]>(statuses: TStatuses) => {
     return statuses;

@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 const returnBothOfWhatIPassIn = <T1, T2>(params: { a: unknown; b: unknown }) => {
     return {
         first: params.a,

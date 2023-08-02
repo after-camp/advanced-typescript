@@ -1,6 +1,6 @@
 import _ from "lodash";
 import { expect, it } from "vitest";
-import {doNotExecute, Equal, Expect} from "../../helper.ts";
+import {doNotExecute, Equal, Expect} from "../../helper";
 
 /**
  * We've made a reusable function here to group

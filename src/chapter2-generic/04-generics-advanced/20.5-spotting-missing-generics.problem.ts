@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 const getValue = <TObj>(obj: TObj, key: keyof TObj) => {
   return obj[key];

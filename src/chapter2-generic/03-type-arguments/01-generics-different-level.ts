@@ -1,5 +1,5 @@
 import { expect, it, describe } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 export const getHomePageFeatureFlags = (
     config: unknown,

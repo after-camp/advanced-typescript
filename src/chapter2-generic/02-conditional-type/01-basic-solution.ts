@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 type YouSayGoodbyeAndISayHello<T> = T extends "hello" ? "goodbye" : "hello";
 

@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 export const returnWhatIPassIn = <T extends string>(t: T) => t;
 

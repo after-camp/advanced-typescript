@@ -1,5 +1,5 @@
 import { it } from "vitest";
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 function returnWhatIPassInExceptFor1(t: 1): 2;
 function returnWhatIPassInExceptFor1<T>(t: T): T;

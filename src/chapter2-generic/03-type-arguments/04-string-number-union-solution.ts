@@ -1,4 +1,4 @@
-import {Equal, Expect} from "../../helper.ts";
+import {Equal, Expect} from "../../helper";
 
 export const inferItemLiteral = <T extends string | number>(t: T) => {
     return {
