@@ -1,4 +1,4 @@
-export type Maybe<T extends {}> = T | null | undefined;
+export type Maybe<T> = unknown;
 
 type tests = [
     // @ts-expect-error
