@@ -1,0 +1,15 @@
+{
+  "name": "decorator",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "class-decorator": "ts-node 01-class-decorator.ts",
+    "method-decorator": "ts-node 03-method-decorator.ts",
+    "field-decorator": "ts-node 02-field-decorator.ts",
+    "observable": "ts-node 04-observable.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    // stage 2
+    //    "experimentalDecorators": false
+  }
+}
