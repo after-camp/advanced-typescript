@@ -20,4 +20,5 @@ function withBudget(budget: number) {
 
 const manager = new Manager();
 manager.writeTest();
+manager.writeTest();
 console.log("manager: ", manager);

@@ -1,8 +1,7 @@
-const routes: Record<string, {}> = {
+const routes  = {
     "/": {},
     "/users": {},
     "/admin/users": {},
-};
+} satisfies Record<string, {}>;
 
-// @ts-expect-error
-routes.awdkjanwdkjn;
+routes["/admin/users"];

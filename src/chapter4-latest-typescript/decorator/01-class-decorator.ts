@@ -5,6 +5,7 @@ export class Manager {
     project = "Simple project"
 
     constructor() {
+        console.log("Manager constructor")
     }
 }
 
